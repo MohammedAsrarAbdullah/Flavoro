@@ -15,7 +15,7 @@ const Fooditem = () => {
   return (
     <>
       <Toaster position="top-center" reverseOrder={false} />
-      <div className='flex flex-wrap gap-5 justify-center lg:justify-between my-10'>
+      <div className='flex flex-wrap gap-4 justify-center lg:justify-start mx-4 my-10'>
         {
           FoodData.filter((food) => {
             const matchesCategory = category === "All" || food.category === category;

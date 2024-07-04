@@ -4,13 +4,16 @@ import CategoryMenu from '../components/CategoryMenu'
 import Fooditem from '../components/Fooditem'
 import Cart from '../components/Cart'
 
+
 const Home = () => {
   return (
     <>
+    <div >
       <Navbar/>
       <CategoryMenu/>
       <Fooditem/>
       <Cart/>
+    </div>
     </>
   )
 }

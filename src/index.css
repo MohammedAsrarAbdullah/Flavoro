@@ -3,4 +3,10 @@
 @tailwind utilities;
 body{
     background-color: rgb(244, 244, 244);
+    background-image: url(assets/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-attachment: fixed;
 }
+
